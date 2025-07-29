@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-size: 20px;
+    width: 100vw;
+    min-height: 100vh
+}
+
+;
+
+img {
+    width: 20%;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFA07A;
+    padding: 1rem;
+    box-shadow: 4px 4px 5px;
+}
+
+
+#Logo {
+    height: 15vh;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 80vw
+}
+
+.menu>li {
+    list-style-type: none
+}
+
+.menu>li>a {
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+
+}

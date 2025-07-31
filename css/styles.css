@@ -110,6 +110,8 @@ p {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    width: 80%;
+    margin: auto;
 }
 
 .card {

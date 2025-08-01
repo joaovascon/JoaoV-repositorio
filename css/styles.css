@@ -96,9 +96,10 @@ h5 {
     text-shadow: 2px 2px 1px black;
 }
 
-p {
-    color: rgb(255, 255, 255);
+.carousel-inner p {
     text-shadow: 2px 2px 1px black;
+    color: rgb(255, 255, 255);
+
 }
 
 /* Table */

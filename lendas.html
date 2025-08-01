@@ -14,19 +14,31 @@
     <header>
         <a href="./index.html"><img id="Logotipo_FCP" src="./images/f-c-porto-logo-png_seeklogo-51371.png"
                 alt="Logotipo FCP"></a>
+
+        <!-- Botão do Menu Hambúrguer (visível apenas < 750px) -->
+        <button class="hamburger" id="hamburger">&#9776;</button>
+
+        <!-- Menu lateral oculto por padrão -->
+        <nav class="side-menu" id="sideMenu">
+            <ul>
+                <li><a href="ultimasnoticias.html">Últimas Notícias</a></li>
+                <li><a href="agenda.html">Agenda</a></li>
+                <li><a href="lendas.html">Lendas</a></li>
+            </ul>
+        </nav>
+
         <ul class="menu">
             <li><a href="ultimasnoticias.html">Últimas Notícias</a></li>
             <li><a href="agenda.html">Agenda</a></li>
             <li><a href="lendas.html">Lendas</a></li>
-            </li>
         </ul>
     </header>
-
     <div class="card-container">
         <div class="card">
             <img src="./images/20221128-0403-01-580x400.jpg" alt="Imagem 1">
             <div class="card-content">
-                <h3>Fernando Gomes</h3>
+                <h3> <a href="https://pt.wikipedia.org/wiki/Fernando_Mendes_Soares_Gomes">Fernando
+                        Gomes</h3></a>
                 <p>Fernando Gomes foi o maior goleador da história do FC Porto, com 355 golos. Venceu duas Botas de Ouro
                     e ajudou a conquistar vários títulos, incluindo a Taça dos Campeões. Era conhecido como "Bibota".
                 </p>
@@ -146,3 +158,14 @@
         </div>
     </div>
     <p></p>Esta lista não segue qualquer ordem específica</h3>
+
+    <script src="./js/menu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+        integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
+        crossorigin="anonymous"></script>
